@@ -56,9 +56,76 @@
 			</div>
 			<div class="container">
 				<div class="brk-grid row">
-					<div class="brk-grid__sizer"></div>
-					<div class="col-xl-3 col-lg-4 col-md-6 brk-grid__item brk-grid__item_height-370 cctv iot" data-brk-hover3d='{"imgWrapper": ".post-filmstrip", "caption": ".post-filmstrip__content"}'>
-						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="img/400x400_1.jpg" data-brk-library="component__content_slider,fancybox,anime">
+				<div class="brk-grid__sizer"></div>
+					
+					<div class="col-xl-3 col-lg-4 col-md-6 brk-grid__item brk-grid__item_height-370 iot" data-brk-hover3d='{"imgWrapper": ".post-filmstrip", "caption": ".post-filmstrip__content"}'>
+						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="{{asset('img/portfolio/iot-2.png')}}" data-brk-library="component__content_slider,fancybox,anime">
+							<div class="post-filmstrip__overlay brk-base-bg-gradient-50deg"></div>
+							<div class="post-filmstrip__content text-center">
+								<h3 class="font__family-montserrat font__weight-semibold font__size-21 line__height-24">
+									Smart Farming
+								</h3>
+								<div class="post-filmstrip__excerpt font__family-open-sans font__size-16 line__height-26">
+								sensor untuk memantau kadar air secara real-time, mengoptimalkan irigasi, dan meningkatkan efisiensi serta hasil panen.
+								</div>
+								<div class="links">
+									<a href="#" class="links__permalink bg-white-20">
+										<i class="fas fa-link"></i>
+									</a>
+									<a href="{{asset('img/portfolio/iot-2.png')}}" class="links__view fancybox">
+										<i class="fas fa-search"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-6 col-lg-8 col-md-6 brk-grid__item brk-grid__item_height-370 software" data-brk-hover3d='{"imgWrapper": ".post-filmstrip", "caption": ".post-filmstrip__content"}'>
+						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="{{asset('img/portfolio/software_1.png')}}" data-brk-library="component__content_slider,fancybox,anime">
+							<div class="post-filmstrip__overlay brk-base-bg-gradient-50deg"></div>
+							<div class="post-filmstrip__content text-center">
+								<h3 class="font__family-montserrat font__weight-semibold font__size-21 line__height-24">
+									Simantab Indibiduan
+								</h3>
+								<div class="post-filmstrip__excerpt font__family-open-sans font__size-16 line__height-26">
+								aplikasi pelaporan dan informasi bencana di Kabupaten Pasuruan, menampilkan lokasi, jenis bencana, foto, dan komentar masyarakat secara real-time.
+								</div>
+								<div class="links">
+									<a href="#" class="links__permalink bg-white-20">
+										<i class="fas fa-link"></i>
+									</a>
+									<a href="{{asset('img/portfolio/software_1.png')}}" class="links__view fancybox">
+										<i class="fas fa-search"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-3 col-lg-4 col-md-6 brk-grid__item brk-grid__item_height-370  otomatisasi" data-brk-hover3d='{"imgWrapper": ".post-filmstrip", "caption": ".post-filmstrip__content"}'>
+						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="{{asset('img/portfolio/otoindu-3.png')}}" data-brk-library="component__content_slider,fancybox,anime">
+							<div class="post-filmstrip__overlay brk-base-bg-gradient-50deg"></div>
+							<div class="post-filmstrip__content text-center">
+								<h3 class="font__family-montserrat font__weight-semibold font__size-21 line__height-24">
+									CCTV Perumahan
+								</h3>
+								<div class="post-filmstrip__excerpt font__family-open-sans font__size-16 line__height-26">
+								Pemasangan CCTV Hikvision di perumahan untuk keamanan optimal, memantau area secara real-time dengan kualitas video jernih.
+								</div>
+								<div class="links">
+									<a href="#" class="links__permalink bg-white-20">
+										<i class="fas fa-link"></i>
+									</a>
+									<a href="{{asset('img/portfolio/otoindu-3.png')}}" class="links__view fancybox">
+										<i class="fas fa-search"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-3 col-lg-4 col-md-6 brk-grid__item brk-grid__item_height-370  otomatisasi" data-brk-hover3d='{"imgWrapper": ".post-filmstrip", "caption": ".post-filmstrip__content"}'>
+						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="{{asset('img/portfolio/otoindu-5.png')}}" data-brk-library="component__content_slider,fancybox,anime">
 							<div class="post-filmstrip__overlay brk-base-bg-gradient-50deg"></div>
 							<div class="post-filmstrip__content text-center">
 								<h3 class="font__family-montserrat font__weight-semibold font__size-21 line__height-24">
@@ -71,78 +138,187 @@
 									<a href="#" class="links__permalink bg-white-20">
 										<i class="fas fa-link"></i>
 									</a>
-									<a href="img/400x400_1.jpg" class="links__view fancybox">
+									<a href="{{asset('img/portfolio/otoindu-5.png')}}" class="links__view fancybox">
 										<i class="fas fa-search"></i>
 									</a>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-6 col-lg-8 col-md-6 brk-grid__item brk-grid__item_height-370 software cctv" data-brk-hover3d='{"imgWrapper": ".post-filmstrip", "caption": ".post-filmstrip__content"}'>
-						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="img/800x800_1.jpg" data-brk-library="component__content_slider,fancybox,anime">
+					<div class="col-xl-3 col-lg-4 col-md-6 brk-grid__item brk-grid__item_height-370 cctv" data-brk-hover3d='{"imgWrapper": ".post-filmstrip", "caption": ".post-filmstrip__content"}'>
+						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="{{asset('img/portfolio/cctv-3.png')}}" data-brk-library="component__content_slider,fancybox,anime">
 							<div class="post-filmstrip__overlay brk-base-bg-gradient-50deg"></div>
 							<div class="post-filmstrip__content text-center">
 								<h3 class="font__family-montserrat font__weight-semibold font__size-21 line__height-24">
-									Smartly Coded & Maintained.
+									CCTV Perumahan
 								</h3>
 								<div class="post-filmstrip__excerpt font__family-open-sans font__size-16 line__height-26">
-									The web is both an interactive and virtually unlimited medium, meaning that your own little corner of it has great potential.
+								Pemasangan CCTV Hikvision di perumahan untuk keamanan optimal, memantau area secara real-time dengan kualitas video jernih.
+							
 								</div>
 								<div class="links">
 									<a href="#" class="links__permalink bg-white-20">
 										<i class="fas fa-link"></i>
 									</a>
-									<a href="img/800x800_1.jpg" class="links__view fancybox">
+									<a href="{{asset('img/portfolio/cctv-3.png')}}" class="links__view fancybox">
 										<i class="fas fa-search"></i>
 									</a>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 brk-grid__item brk-grid__item_height-370 otomatisasi iot" data-brk-hover3d='{"imgWrapper": ".post-filmstrip", "caption": ".post-filmstrip__content"}'>
-						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="img/400x800_1.jpg" data-brk-library="component__content_slider,fancybox,anime">
+				
+
+					<div class="col-xl-6 col-lg-8 col-md-6 brk-grid__item brk-grid__item_height-370 software" data-brk-hover3d='{"imgWrapper": ".post-filmstrip", "caption": ".post-filmstrip__content"}'>
+						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="{{asset('img/portfolio/software_2.png')}}" data-brk-library="component__content_slider,fancybox,anime">
 							<div class="post-filmstrip__overlay brk-base-bg-gradient-50deg"></div>
 							<div class="post-filmstrip__content text-center">
 								<h3 class="font__family-montserrat font__weight-semibold font__size-21 line__height-24">
-									Scalable
+									Belka
 								</h3>
 								<div class="post-filmstrip__excerpt font__family-open-sans font__size-16 line__height-26">
-									The web is both an interactive and virtually unlimited medium, meaning
+								layanan servis kendaraan yang datang langsung ke lokasi pelanggan. Kami menangani perbaikan, perawatan, dan darurat kendaraan dengan cepat, praktis, dan profesional.								</div>
+								<div class="links">
+									<a href="#" class="links__permalink bg-white-20">
+										<i class="fas fa-link"></i>
+									</a>
+									<a href="{{asset('img/portfolio/software_2.png')}}" class="links__view fancybox">
+										<i class="fas fa-search"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-6 col-lg-8 col-md-6 brk-grid__item brk-grid__item_height-370 software" data-brk-hover3d='{"imgWrapper": ".post-filmstrip", "caption": ".post-filmstrip__content"}'>
+						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="{{asset('img/portfolio/software_3.png')}}" data-brk-library="component__content_slider,fancybox,anime">
+							<div class="post-filmstrip__overlay brk-base-bg-gradient-50deg"></div>
+							<div class="post-filmstrip__content text-center">
+								<h3 class="font__family-montserrat font__weight-semibold font__size-21 line__height-24">
+									IKI ONLINE
+								</h3>
+								<div class="post-filmstrip__excerpt font__family-open-sans font__size-16 line__height-26">
+								layanan transportasi yang menawarkan perjalanan aman, cepat, dan nyaman. Dengan pemesanan mudah melalui aplikasi, IKI Online menyediakan solusi mobilitas praktis untuk kebutuhan harian Anda.				</div>
+								<div class="links">
+									<a href="#" class="links__permalink bg-white-20">
+										<i class="fas fa-link"></i>
+									</a>
+									<a href="{{asset('img/portfolio/software_3.png')}}" class="links__view fancybox">
+										<i class="fas fa-search"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-6 col-lg-8 col-md-6 brk-grid__item brk-grid__item_height-370 software" data-brk-hover3d='{"imgWrapper": ".post-filmstrip", "caption": ".post-filmstrip__content"}'>
+						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="{{asset('img/portfolio/software_4.png')}}" data-brk-library="component__content_slider,fancybox,anime">
+							<div class="post-filmstrip__overlay brk-base-bg-gradient-50deg"></div>
+							<div class="post-filmstrip__content text-center">
+								<h3 class="font__family-montserrat font__weight-semibold font__size-21 line__height-24">
+									Management Perusahaan
+								</h3>
+								<div class="post-filmstrip__excerpt font__family-open-sans font__size-16 line__height-26">
+								Aplikasi absensi dan manajemen perusahaan memudahkan pencatatan kehadiran, pengelolaan karyawan, serta monitoring kinerja secara real-time. Solusi praktis untuk efisiensi operasional perusahaan.				</div>
+								<div class="links">
+									<a href="#" class="links__permalink bg-white-20">
+										<i class="fas fa-link"></i>
+									</a>
+									<a href="{{asset('img/portfolio/software_4.png')}}" class="links__view fancybox">
+										<i class="fas fa-search"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 brk-grid__item brk-grid__item_height-370  iot" data-brk-hover3d='{"imgWrapper": ".post-filmstrip", "caption": ".post-filmstrip__content"}'>
+						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="{{asset('img/portfolio/iot-3.png')}}" data-brk-library="component__content_slider,fancybox,anime">
+							<div class="post-filmstrip__overlay brk-base-bg-gradient-50deg"></div>
+							<div class="post-filmstrip__content text-center">
+								<h3 class="font__family-montserrat font__weight-semibold font__size-21 line__height-24">
+									SmartFarming Warna Daun
+								</h3>
+								<div class="post-filmstrip__excerpt font__family-open-sans font__size-16 line__height-26">
+								Smart Farming Warna Daun memantau warna daun untuk mendeteksi kesehatan tanaman, kebutuhan air, dan kekurangan nutrisi secara cepat.
 								</div>
 								<div class="links">
 									<a href="#" class="links__permalink bg-white-20">
 										<i class="fas fa-link"></i>
 									</a>
-									<a href="img/400x800_1.jpg" class="links__view fancybox">
+									<a href="{{asset('img/portfolio/iot-3.png')}}" class="links__view fancybox">
 										<i class="fas fa-search"></i>
 									</a>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-6 col-lg-8 col-md-6 brk-grid__item brk-grid__item_height-370 software cctv" data-brk-hover3d='{"imgWrapper": ".post-filmstrip", "caption": ".post-filmstrip__content"}'>
-						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="img/800x400_1.jpg" data-brk-library="component__content_slider,fancybox,anime">
+					
+
+					<div class="col-xl-6 col-lg-8 col-md-6 brk-grid__item brk-grid__item_height-370  cctv" data-brk-hover3d='{"imgWrapper": ".post-filmstrip", "caption": ".post-filmstrip__content"}'>
+						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="{{asset('img/portfolio/cctv-1.png')}}" data-brk-library="component__content_slider,fancybox,anime">
 							<div class="post-filmstrip__overlay brk-base-bg-gradient-50deg"></div>
 							<div class="post-filmstrip__content text-center">
 								<h3 class="font__family-montserrat font__weight-semibold font__size-21 line__height-24">
-									Smartly Coded & Maintained.
+									CCTV Kandang Ayam
 								</h3>
 								<div class="post-filmstrip__excerpt font__family-open-sans font__size-16 line__height-26">
-									The web is both an interactive and virtually unlimited medium, meaning that your own little corner of it has great potential.
+								Pemasangan CCTV Hikvision di kandang ayam untuk memantau keamanan dan kondisi ayam secara real-time, memastikan lingkungan yang aman dan produktif.						</div>
+								<div class="links">
+									<a href="#" class="links__permalink bg-white-20">
+										<i class="fas fa-link"></i>
+									</a>
+									<a href="{{asset('img/portfolio/cctv-1.png')}}" class="links__view fancybox">
+										<i class="fas fa-search"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 brk-grid__item brk-grid__item_height-370 cctv" data-brk-hover3d='{"imgWrapper": ".post-filmstrip", "caption": ".post-filmstrip__content"}'>
+						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="{{asset('img/portfolio/cctv-2.png')}}" data-brk-library="component__content_slider,fancybox,anime">
+							<div class="post-filmstrip__overlay brk-base-bg-gradient-50deg"></div>
+							<div class="post-filmstrip__content text-center">
+								<h3 class="font__family-montserrat font__weight-semibold font__size-21 line__height-24">
+									CCTV Bangunan
+								</h3>
+								<div class="post-filmstrip__excerpt font__family-open-sans font__size-16 line__height-26">
+								Pemasangan CCTV di toko bangunan untuk meningkatkan keamanan, memantau aktivitas pelanggan dan staf, serta mencegah tindakan kriminal di area toko.
 								</div>
 								<div class="links">
 									<a href="#" class="links__permalink bg-white-20">
 										<i class="fas fa-link"></i>
 									</a>
-									<a href="img/800x400_1.jpg" class="links__view fancybox">
+									<a href="{{asset('img/portfolio/cctv-2.png')}}" class="links__view fancybox">
 										<i class="fas fa-search"></i>
 									</a>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 brk-grid__item brk-grid__item_height-370 otomatisasi iot" data-brk-hover3d='{"imgWrapper": ".post-filmstrip", "caption": ".post-filmstrip__content"}'>
-						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="img/home-page/isotope-3.jpg" data-brk-library="component__content_slider,fancybox,anime">
+
+					<div class="col-xl-3 col-lg-4 col-md-6 brk-grid__item brk-grid__item_height-370  iot" data-brk-hover3d='{"imgWrapper": ".post-filmstrip", "caption": ".post-filmstrip__content"}'>
+						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="{{asset('img/portfolio/iot-1.png')}}" data-brk-library="component__content_slider,fancybox,anime">
+							<div class="post-filmstrip__overlay brk-base-bg-gradient-50deg"></div>
+							<div class="post-filmstrip__content text-center">
+								<h3 class="font__family-montserrat font__weight-semibold font__size-21 line__height-24">
+									SmartFarming Greenhouse
+								</h3>
+								<div class="post-filmstrip__excerpt font__family-open-sans font__size-16 line__height-26">
+								mengoptimalkan kondisi lingkungan dengan teknologi untuk meningkatkan efisiensi dan hasil pertanian di dalam rumah kaca.
+								</div>
+								<div class="links">
+									<a href="#" class="links__permalink bg-white-20">
+										<i class="fas fa-link"></i>
+									</a>
+									<a href="{{asset('img/portfolio/iot-1.png')}}" class="links__view fancybox">
+										<i class="fas fa-search"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 brk-grid__item brk-grid__item_height-370 otomatisasi" data-brk-hover3d='{"imgWrapper": ".post-filmstrip", "caption": ".post-filmstrip__content"}'>
+						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="{{asset('img/portfolio/otoindu-1.png')}}" data-brk-library="component__content_slider,fancybox,anime">
 							<div class="post-filmstrip__overlay brk-base-bg-gradient-50deg"></div>
 							<div class="post-filmstrip__content text-center">
 								<h3 class="font__family-montserrat font__weight-semibold font__size-21 line__height-24">
@@ -155,15 +331,15 @@
 									<a href="#" class="links__permalink bg-white-20">
 										<i class="fas fa-link"></i>
 									</a>
-									<a href="img/home-page/isotope-3.jpg" class="links__view fancybox">
+									<a href="{{asset('img/portfolio/otoindu-1.png')}}" class="links__view fancybox">
 										<i class="fas fa-search"></i>
 									</a>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 brk-grid__item brk-grid__item_height-370 cctv iot" data-brk-hover3d='{"imgWrapper": ".post-filmstrip", "caption": ".post-filmstrip__content"}'>
-						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="img/home-page/isotope-1.jpg" data-brk-library="component__content_slider,fancybox,anime">
+					<div class="col-xl-3 col-lg-4 col-md-6 brk-grid__item brk-grid__item_height-370  otomatisasi" data-brk-hover3d='{"imgWrapper": ".post-filmstrip", "caption": ".post-filmstrip__content"}'>
+						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="{{asset('img/portfolio/otoindu-2.png')}}" data-brk-library="component__content_slider,fancybox,anime">
 							<div class="post-filmstrip__overlay brk-base-bg-gradient-50deg"></div>
 							<div class="post-filmstrip__content text-center">
 								<h3 class="font__family-montserrat font__weight-semibold font__size-21 line__height-24">
@@ -176,27 +352,15 @@
 									<a href="#" class="links__permalink bg-white-20">
 										<i class="fas fa-link"></i>
 									</a>
-									<a href="img/home-page/isotope-1.jpg" class="links__view fancybox">
+									<a href="{{asset('img/portfolio/otoindu-2.png')}}" class="links__view fancybox">
 										<i class="fas fa-search"></i>
 									</a>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 brk-grid__item brk-grid__item_height-370 otomatisasi iot">
-						<div class="brk-hosted-video" data-brk-library="component__media_embeds,fancybox">
-							<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/home-page/isotope-3.jpg" alt="alt" class="brk-hosted-video__img lazyload">
-							<div class="brk-hosted-video__body">
-								<a class="icon__btn icon__btn_reverse icon__btn-circled icon__btn-lg fancybox brk-hosted-video__btn" href="http://dev.nikadevs.com/berserk-data/Placeholder_Video.mp4" data-brk-library="component__button">
-									<span class="before"></span>
-									<i class="fa fa-play" aria-hidden="true"></i>
-									<span class="after"></span>
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 brk-grid__item brk-grid__item_height-370 cctv iot" data-brk-hover3d='{"imgWrapper": ".post-filmstrip", "caption": ".post-filmstrip__content"}'>
-						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="img/home-page/isotope-1.jpg" data-brk-library="component__content_slider,fancybox,anime">
+					<div class="col-xl-3 col-lg-4 col-md-6 brk-grid__item brk-grid__item_height-370  otomatisasi" data-brk-hover3d='{"imgWrapper": ".post-filmstrip", "caption": ".post-filmstrip__content"}'>
+						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="{{asset('img/portfolio/otoindu-4.png')}}" data-brk-library="component__content_slider,fancybox,anime">
 							<div class="post-filmstrip__overlay brk-base-bg-gradient-50deg"></div>
 							<div class="post-filmstrip__content text-center">
 								<h3 class="font__family-montserrat font__weight-semibold font__size-21 line__height-24">
@@ -209,34 +373,15 @@
 									<a href="#" class="links__permalink bg-white-20">
 										<i class="fas fa-link"></i>
 									</a>
-									<a href="img/home-page/isotope-1.jpg" class="links__view fancybox">
+									<a href="{{asset('img/portfolio/otoindu-4.png')}}" class="links__view fancybox">
 										<i class="fas fa-search"></i>
 									</a>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-6 col-lg-8 col-md-6 brk-grid__item brk-grid__item_height-370 software cctv" data-brk-hover3d='{"imgWrapper": ".post-filmstrip", "caption": ".post-filmstrip__content"}'>
-						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="img/home-page/isotope-2.jpg" data-brk-library="component__content_slider,fancybox,anime">
-							<div class="post-filmstrip__overlay brk-base-bg-gradient-50deg"></div>
-							<div class="post-filmstrip__content text-center">
-								<h3 class="font__family-montserrat font__weight-semibold font__size-21 line__height-24">
-									Smartly Coded & Maintained.
-								</h3>
-								<div class="post-filmstrip__excerpt font__family-open-sans font__size-16 line__height-26">
-									The web is both an interactive and virtually unlimited medium, meaning that your own little corner of it has great potential.
-								</div>
-								<div class="links">
-									<a href="#" class="links__permalink bg-white-20">
-										<i class="fas fa-link"></i>
-									</a>
-									<a href="img/home-page/isotope-2.jpg" class="links__view fancybox">
-										<i class="fas fa-search"></i>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
+					
+
 				</div>
 				<div class="text-center">
 					<button class="btn btn-inside-out btn-lg btn-inside-out-invert btn-dark-shadow-small font__weight-bold pr-65 pl-65 ml-auto mr-auto mt-0 mb-0 border-radius-30 brk-load-button" data-brk-library="component__button">

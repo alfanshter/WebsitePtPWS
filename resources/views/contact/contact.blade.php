@@ -143,7 +143,7 @@
 												<div class="card-block text-center font__family-open-sans bg-position_bottom-right bg-norepeat">
 													<div class="row">
 														<div class="col-sm-12">
-															<img class="mb-20 rounded-circle lazyload" alt="alt" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{asset('img/contact/accordion-bg-image-02.jpg')}}">
+															<img class="mb-20 rounded-circle lazyload" alt="alt" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{asset('img/contact/accordion-bg-image-02.png')}}">
 															<p class="mt-1 font__family-open-sans letter-spacing-40 font__size-16 line__height-26">
 																Untuk bekerja sama dengan kami, Anda bisa menghubungi tim kami melalui email atau telepon. Kami akan mendiskusikan kebutuhan Anda, memberikan solusi yang sesuai, dan menyusun perjanjian kerja sama yang jelas agar proyek berjalan lancar.
 

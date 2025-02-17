@@ -320,7 +320,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4 col-sm-6">
-                            <div class="brk-team-persone-table__item lazyload" data-bg="img/390x390_2.jpg">
+                            <div class="brk-team-persone-table__item lazyload" data-bg="{{asset('img/about/manager-4.png')}}">
                                 <span class="brk-base-gradient-persone-table brk-team-persone-table__overlay"></span>
                                 <div class="brk-team-persone-table__title brk-team-persone-table__title_white">
                                     <div class="brk-team-persone-table__name-position">
@@ -339,7 +339,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4 col-sm-6">
-                            <div class="brk-team-persone-table__item lazyload" data-bg="img/390x390_3.jpg">
+                            <div class="brk-team-persone-table__item lazyload" data-bg="{{asset('img/about/manager-1.png')}}">
                                 <span class="brk-base-gradient-persone-table brk-team-persone-table__overlay"></span>
                                 <div class="brk-team-persone-table__title brk-team-persone-table__title_dark">
                                     <div class="brk-team-persone-table__name-position">
@@ -358,7 +358,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4 col-sm-6">
-                            <div class="brk-team-persone-table__item lazyload" data-bg="img/390x390_4.jpg">
+                            <div class="brk-team-persone-table__item lazyload" data-bg="{{asset('img/about/manager-3.png')}}">
                                 <span class="brk-base-gradient-persone-table brk-team-persone-table__overlay"></span>
                                 <div class="brk-team-persone-table__title brk-team-persone-table__title_white">
                                     <div class="brk-team-persone-table__name-position">
@@ -377,7 +377,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4 col-sm-6">
-                            <div class="brk-team-persone-table__item lazyload" data-bg="img/390x390_5.jpg">
+                            <div class="brk-team-persone-table__item lazyload" data-bg="{{asset('img/about/manager-5.png')}}">
                                 <span class="brk-base-gradient-persone-table brk-team-persone-table__overlay"></span>
                                 <div class="brk-team-persone-table__title brk-team-persone-table__title_dark">
                                     <div class="brk-team-persone-table__name-position">
@@ -396,7 +396,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4 col-sm-6">
-                            <div class="brk-team-persone-table__item lazyload" data-bg="img/390x390_6.jpg">
+                            <div class="brk-team-persone-table__item lazyload" data-bg="{{asset('img/about/manager-2.png')}}">
                                 <span class="brk-base-gradient-persone-table brk-team-persone-table__overlay"></span>
                                 <div class="brk-team-persone-table__title brk-team-persone-table__title_white">
                                     <div class="brk-team-persone-table__name-position">
