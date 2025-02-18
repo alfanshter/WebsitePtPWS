@@ -290,10 +290,10 @@
                                 <rect x="40.89" y="34.59" transform="matrix(-0.4999 -0.8661 0.8661 -0.4999 24.8453 105.5295)" display="inline" fill="none" stroke="#34495E" stroke-width="1" stroke-linecap="square" stroke-miterlimit="10" width="4" height="22" />
                             </svg>
                             <h3 class="font__family-montserrat font__weight-light font__size-24 line__height-30 text-uppercase mt-30">
-                            Teknologi 
+                                Teknologi
                             </h3>
                             <h3 class="font__family-montserrat font__weight-bold font__size-24 line__height-30 text-uppercase">
-                            H.265+ 
+                                H.265+
                             </h3>
                             <p class="font__family-open-sans font__size-14 text-gray mt-10">Teknologi H.265+ untuk kompresi video yang lebih efisien.</p>
                         </div>
@@ -343,10 +343,10 @@
                                 <line fill="none" stroke="#34495E" stroke-width="3" stroke-linecap="square" stroke-miterlimit="10" x1="30" y1="31" x2="18" y2="19" />
                             </svg>
                             <h3 class="font__family-montserrat font__weight-light font__size-24 line__height-30 text-uppercase mt-30">
-                            AI Video 
+                                AI Video
                             </h3>
                             <h3 class="font__family-montserrat font__weight-bold font__size-24 line__height-30 text-uppercase">
-                            Analytics
+                                Analytics
                             </h3>
                             <p class="font__family-open-sans font__size-14 text-gray mt-10">AI Video Analytics untuk deteksi wajah, objek, dan perilaku mencurigakan.</p>
                         </div>
@@ -379,7 +379,7 @@
                                 <div class="brk-ic-left-slide__wrapper brk-ic-left-slide__wrapper_gradient brk-base-bg-gradient-50deg-a">
                                     <h3 class="brk-ic-left-slide__title font__size-21 line__height-28">
                                         <span class="font__family-montserrat font__weight-bold letter-spacing--20">
-                                        NVR AI Series 
+                                            NVR AI Series
                                         </span>
                                     </h3>
                                     <p class="font__size-12 font__family-open-sans line__height-26 text-white" data-brk-library="component__title">Dilengkapi kecerdasan buatan untuk analisis video yang lebih cerdas.</p>
@@ -387,14 +387,14 @@
                                 </div>
                             </div>
                         </div>
-                     
+
                     </div>
                 </div>
             </div>
 
             <div class="container mb-70 mt-50" id="description">
                 <div class="container">
-                    <h3 class="font__family-montserrat font__size-28 font__weight-bold text-left"><span class="heading__number">03</span>  DVR (Digital Video Recorder) Hikvision </h3>
+                    <h3 class="font__family-montserrat font__size-28 font__weight-bold text-left"><span class="heading__number">03</span> DVR (Digital Video Recorder) Hikvision </h3>
                 </div>
                 <div class="row no-gutters align-items-center">
                     <div class="col-xl-8 order-xl-1 text-center">
@@ -422,7 +422,7 @@
                             </h3>
                             <p class="font__family-open-sans font__size-14 text-gray mt-10"> Mendukung Resolusi hingga 4K pada model terbaru.</p>
                         </div>
-                       
+
                         <div class="text-center text-xl-right mt-50 wow fadeInLeft">
                             <svg class="svg-md svg-blue" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 60 60">
                                 <circle fill="none" stroke="#34495E" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" cx="15" cy="13" r="6" />
@@ -431,10 +431,10 @@
                                 <rect x="40.89" y="34.59" transform="matrix(-0.4999 -0.8661 0.8661 -0.4999 24.8453 105.5295)" display="inline" fill="none" stroke="#34495E" stroke-width="1" stroke-linecap="square" stroke-miterlimit="10" width="4" height="22" />
                             </svg>
                             <h3 class="font__family-montserrat font__weight-light font__size-24 line__height-30 text-uppercase mt-30">
-                            Teknologi 
+                                Teknologi
                             </h3>
                             <h3 class="font__family-montserrat font__weight-bold font__size-24 line__height-30 text-uppercase">
-                            H.265+ 
+                                H.265+
                             </h3>
                             <p class="font__family-open-sans font__size-14 text-gray mt-10">Teknologi H.265 Pro+ untuk efisiensi penyimpanan video.</p>
                         </div>
@@ -459,10 +459,10 @@
                                 <line fill="none" stroke="#34495E" stroke-width="3" stroke-linecap="square" stroke-miterlimit="10" x1="30" y1="31" x2="18" y2="19" />
                             </svg>
                             <h3 class="font__family-montserrat font__weight-light font__size-24 line__height-30 text-uppercase mt-30">
-                            Hybrid 
+                                Hybrid
                             </h3>
                             <h3 class="font__family-montserrat font__weight-bold font__size-24 line__height-30 text-uppercase">
-                            Mode
+                                Mode
                             </h3>
                             <p class="font__family-open-sans font__size-14 text-gray mt-10">Bisa digunakan untuk kamera analog dan IP dalam satu sistem.</p>
                         </div>
@@ -484,10 +484,10 @@
                                 <line fill="none" stroke="#34495E" stroke-width="3" stroke-linecap="square" stroke-miterlimit="10" x1="30" y1="31" x2="18" y2="19" />
                             </svg>
                             <h3 class="font__family-montserrat font__weight-light font__size-24 line__height-30 text-uppercase mt-30">
-                            Motion &
+                                Motion &
                             </h3>
                             <h3 class="font__family-montserrat font__weight-bold font__size-24 line__height-30 text-uppercase">
-                            Smart Playback 
+                                Smart Playback
                             </h3>
                             <p class="font__family-open-sans font__size-14 text-gray mt-10">Deteksi Gerakan & Smart Playback untuk mencari kejadian tertentu lebih mudah.</p>
                         </div>
@@ -504,7 +504,7 @@
                                 <div class="brk-ic-left-slide__wrapper brk-ic-left-slide__wrapper_gradient brk-base-bg-gradient-50deg-a">
                                     <h3 class="brk-ic-left-slide__title font__size-21 line__height-28">
                                         <span class="font__family-montserrat font__weight-bold letter-spacing--20">
-                                        DVR Turbo HD
+                                            DVR Turbo HD
                                         </span>
                                     </h3>
                                     <p class="font__size-12 font__family-open-sans line__height-26 text-white" data-brk-library="component__title">Kompatibel dengan kamera analog resolusi tinggi.</p>
@@ -520,7 +520,7 @@
                                 <div class="brk-ic-left-slide__wrapper brk-ic-left-slide__wrapper_gradient brk-base-bg-gradient-50deg-a">
                                     <h3 class="brk-ic-left-slide__title font__size-21 line__height-28">
                                         <span class="font__family-montserrat font__weight-bold letter-spacing--20">
-                                        Hybrid DVR 
+                                            Hybrid DVR
                                         </span>
                                     </h3>
                                     <p class="font__size-12 font__family-open-sans line__height-26 text-white" data-brk-library="component__title">Mendukung kamera analog dan IP dalam satu sistem.</p>
@@ -528,7 +528,7 @@
                                 </div>
                             </div>
                         </div>
-                     
+
                     </div>
                 </div>
             </div>
@@ -554,7 +554,7 @@
                                         <i class="fas fa-microchip" aria-hidden="true"></i>
                                     </div>
                                     <p class="font__family-montserrat info-box-icon-simple__title font__size-28 font__weight-bold line__height-30 mb-20 text-center">
-                                    Pengolahan Citra untuk Lalu Lintas & Transportasi
+                                        Pengolahan Citra untuk Lalu Lintas & Transportasi
                                     </p>
                                     <p class="brk-dark-font-color font__size-16 info-box-icon-simple__about line__height-26 font__weight-normal mb-35 text-center">
                                     <ul class="list-inline-2" data-brk-library="component__list">
@@ -573,7 +573,7 @@
                                                 <span class="cirlce">
                                                     <span class="before"></span>
                                                     <span class="after"></span>
-                                                </span>  Analisis Kecepatan Kendaraan menggunakan video pengawasan.
+                                                </span> Analisis Kecepatan Kendaraan menggunakan video pengawasan.
                                             </span>
                                         </li>
                                         <li class="font__family-montserrat font__size-16 font__weight-bold">
@@ -581,7 +581,7 @@
                                                 <span class="cirlce">
                                                     <span class="before"></span>
                                                     <span class="after"></span>
-                                                </span>  Perhitungan Kendaraan di jalan tol, gerbang masuk, atau area parkir.
+                                                </span> Perhitungan Kendaraan di jalan tol, gerbang masuk, atau area parkir.
                                             </span>
                                         </li>
                                         <li class="font__family-montserrat font__size-16 font__weight-bold">
@@ -589,7 +589,7 @@
                                                 <span class="cirlce">
                                                     <span class="before"></span>
                                                     <span class="after"></span>
-                                                </span>  Deteksi Pelanggaran Lalu Lintas seperti melanggar marka jalan atau lampu merah.
+                                                </span> Deteksi Pelanggaran Lalu Lintas seperti melanggar marka jalan atau lampu merah.
                                             </span>
                                         </li>
 
@@ -605,7 +605,7 @@
                                         <i class="fas fa-mobile-alt" aria-hidden="true"></i>
                                     </div>
                                     <p class="font__family-montserrat info-box-icon-simple__title font__size-28 font__weight-bold line__height-30 mb-20 text-center">
-                                    Keamanan & Pengawasan Area Publik
+                                        Keamanan & Pengawasan Area Publik
                                     </p>
                                     <p class="brk-dark-font-color font__size-16 info-box-icon-simple__about line__height-26 font__weight-normal mb-35 text-center">
                                     <ul class="list-inline-2" data-brk-library="component__list">
@@ -615,7 +615,7 @@
                                                     <span class="cirlce">
                                                         <span class="before"></span>
                                                         <span class="after"></span>
-                                                    </span>  Deteksi Wajah & Pengenalan Identitas untuk akses kontrol dan sistem keamanan gedung.</span>
+                                                    </span> Deteksi Wajah & Pengenalan Identitas untuk akses kontrol dan sistem keamanan gedung.</span>
                                             </a>
                                         </li>
                                         <li class="font__family-montserrat font__size-16 font__weight-bold">
@@ -624,7 +624,7 @@
                                                     <span class="before"></span>
                                                     <span class="after"></span>
                                                 </span> Analisis Perilaku Mencurigakan untuk mencegah tindakan kriminal.
-                                                </span>
+                                            </span>
                                         </li>
                                         <li class="font__family-montserrat font__size-16 font__weight-bold">
                                             <span class="text">
@@ -632,7 +632,7 @@
                                                     <span class="before"></span>
                                                     <span class="after"></span>
                                                 </span> Deteksi Pergerakan di Zona Terlarang untuk menghindari penyusupan ilegal.
-                                                </span>
+                                            </span>
                                         </li>
 
 
@@ -647,7 +647,7 @@
                                         <i class="fas fa-code" aria-hidden="true"></i>
                                     </div>
                                     <p class="font__family-montserrat info-box-icon-simple__title font__size-28 font__weight-bold line__height-30 mb-20 text-center">
-                                    Solusi untuk Gedung & Bisnis
+                                        Solusi untuk Gedung & Bisnis
                                     </p>
                                     <p class="brk-dark-font-color font__size-16 info-box-icon-simple__about line__height-26 font__weight-normal mb-35 text-center">
                                     <ul class="list-inline-2" data-brk-library="component__list">
@@ -680,7 +680,7 @@
                                     </p>
                                 </div>
                             </div>
-                           
+
 
                         </div>
                     </div>
@@ -913,7 +913,7 @@
                                     </ul>
                                 </div>
                                 <div id="tab-2_2">
-                                    <h4 class="font__family-montserrat font__weight-ultralight font__size-21 letter-spacing-40 text-uppercase">2. Instalasi & Konfigurasi 
+                                    <h4 class="font__family-montserrat font__weight-ultralight font__size-21 letter-spacing-40 text-uppercase">2. Instalasi & Konfigurasi
                                     </h4>
                                     <ul class="list-inline-2" data-brk-library="component__list">
                                         <li class="font__family-montserrat font__size-16 font__weight-bold">
@@ -923,13 +923,13 @@
                                                         <span class="before"></span>
                                                         <span class="after"></span>
                                                     </span> Pemasangan perangkat serta pengaturan sistem keamanan.
-                                                    </span>
+                                                </span>
                                             </a>
                                         </li>
                                     </ul>
                                 </div>
                                 <div id="tab-2_3">
-                                    <h4 class="font__family-montserrat font__weight-ultralight font__size-21 letter-spacing-40 text-uppercase">3. Uji Coba & Kalibrasi 
+                                    <h4 class="font__family-montserrat font__weight-ultralight font__size-21 letter-spacing-40 text-uppercase">3. Uji Coba & Kalibrasi
                                     </h4>
                                     <ul class="list-inline-2" data-brk-library="component__list">
 
@@ -939,7 +939,7 @@
                                                     <span class="cirlce">
                                                         <span class="before"></span>
                                                         <span class="after"></span>
-                                                    </span> Mengoptimalkan sistem untuk performa terbaik.                                                    </span>
+                                                    </span> Mengoptimalkan sistem untuk performa terbaik. </span>
                                             </a>
                                         </li>
 
@@ -957,7 +957,7 @@
                                                         <span class="before"></span>
                                                         <span class="after"></span>
                                                     </span> Edukasi cara mengoperasikan dan memantau CCTV.
-                                                    </span>
+                                                </span>
                                             </a>
                                         </li>
 
@@ -1012,7 +1012,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                        <tr>
+                            <tr>
                                 <td data-title="#">01</td>
                                 <td data-title="First Name">Deteksi Jalan Berlubang dengan Dashcam</td>
                                 <td data-title="Kategori">Pengolahan Citra,Dashcam</td>

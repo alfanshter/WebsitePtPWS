@@ -34,4 +34,7 @@ class HomeController extends Controller
     function cctv() {
         return view('service.cctv.cctv');
     }
+    function iot() {
+        return view('service.iot.iot');
+    }
 }

@@ -13,3 +13,4 @@ Route::get('/ios', [HomeController::class, 'ios']);
 Route::get('/website', [HomeController::class, 'website']);
 Route::get('/desktop', [HomeController::class, 'desktop']);
 Route::get('/cctv', [HomeController::class, 'cctv']);
+Route::get('/iot', [HomeController::class, 'iot']);

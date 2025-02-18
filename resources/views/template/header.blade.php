@@ -59,12 +59,7 @@
                                         </ul>
                                     </li>
                                     <li class="dd-effect brk-nav__children brk-nav__drop-down-effect">
-                                        <a href="#">IoT (Internet Of Things)<i class="fas fa-angle-right"></i></a>
-                                        <ul class="brk-nav__sub-menu brk-nav-drop-down font__family-montserrat">
-                    
-                                            <li class="dd-effect"><a href="header-1.html">Industri </a></li>
-                                            <li class="dd-effect"><a href="header-2.html">Rumahan</a></li>
-                                        </ul>
+                                        <a href="/iot">IoT (Internet Of Things)</a>
                                     </li>
                                 
                                 </ul>
