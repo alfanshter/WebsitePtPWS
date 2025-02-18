@@ -37,4 +37,7 @@ class HomeController extends Controller
     function iot() {
         return view('service.iot.iot');
     }
+    function otomasi() {
+        return view('service.otomasi.otomasi');
+    }
 }

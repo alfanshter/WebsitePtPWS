@@ -39,24 +39,8 @@
                                        
                                     </li>
                                     <li class="dd-effect brk-nav__children brk-nav__drop-down-effect">
-                                        <a href="#">Otomatisasi Industri <i class="fas fa-angle-right"></i></a>
-                                        <ul class="brk-nav__sub-menu brk-nav-drop-down font__family-montserrat">
-                                            <li class="dd-effect">
-                                                <a href="forum-main.html">ATS</a>
-                                            </li>
-                                            <li class="dd-effect">
-                                                <a href="forum-post.html">Panel Listrik Custom</a>
-                                            </li>
-                                            <li class="dd-effect">
-                                                <a href="forum-post.html">Kapasitor Bank</a>
-                                            </li>
-                                            <li class="dd-effect">
-                                                <a href="forum-post.html">Penarikan Kabel</a>
-                                            </li>
-                                            <li class="dd-effect">
-                                                <a href="forum-post.html">Controller PLC</a>
-                                            </li>
-                                        </ul>
+                                        <a href="/otomasi">Otomatisasi Industri</a>
+                                        
                                     </li>
                                     <li class="dd-effect brk-nav__children brk-nav__drop-down-effect">
                                         <a href="/iot">IoT (Internet Of Things)</a>
