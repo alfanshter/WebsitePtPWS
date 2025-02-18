@@ -30,24 +30,13 @@
                     
                                             <li class="dd-effect"><a href="/android">Android </a></li>
                                             <li class="dd-effect"><a href="/ios">Ios</a></li>
-                                            <li class="dd-effect"><a href="header-3.html">Website</a></li>
-                                            <li class="dd-effect"><a href="header-4.html">Desktop </a></li>
-                                            <li class="dd-effect"><a href="header-5.html">Machintos</a></li>
+                                            <li class="dd-effect"><a href="/website">Website</a></li>
+                                            <li class="dd-effect"><a href="/desktop">Desktop </a></li>
                                         </ul>
                                     </li>
                                     <li class="dd-effect brk-nav__children brk-nav__drop-down-effect">
-                                        <a href="#">CCTV <i class="fas fa-angle-right"></i></a>
-                                        <ul class="brk-nav__sub-menu brk-nav-drop-down font__family-montserrat">
-                                            <li class="dd-effect">
-                                                <a href="forum-main.html">CCTV ANALOG / DVR</a>
-                                            </li>
-                                            <li class="dd-effect">
-                                                <a href="forum-post.html">IP CAMERA</a>
-                                            </li>
-                                            <li class="dd-effect">
-                                                <a href="forum-post.html">DVR</a>
-                                            </li>
-                                        </ul>
+                                        <a href="/cctv">CCTV</a>
+                                       
                                     </li>
                                     <li class="dd-effect brk-nav__children brk-nav__drop-down-effect">
                                         <a href="#">Otomatisasi Industri <i class="fas fa-angle-right"></i></a>

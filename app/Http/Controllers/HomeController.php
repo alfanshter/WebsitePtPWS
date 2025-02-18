@@ -25,4 +25,13 @@ class HomeController extends Controller
     function ios() {
         return view('service.ios.ios');
     }
+    function website() {
+        return view('service.website.website');
+    }
+    function desktop() {
+        return view('service.desktop.desktop');
+    }
+    function cctv() {
+        return view('service.cctv.cctv');
+    }
 }
