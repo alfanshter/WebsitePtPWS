@@ -151,7 +151,7 @@
                                     alt="alt" class="lazyload">
                             </div>
                             <div class="brk-img-double-wide__container">
-                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{asset('img/home/pict-1.png')}}" alt="alt" class="lazyload">
+                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{asset('img/home/pict-1.jpg')}}" alt="alt" class="lazyload">
                             </div>
                         </div>
                     </div>
@@ -207,7 +207,7 @@
         </section>
 
         <section class="pb-40">
-            <div class="pt-lg-110 pt-40 position-relative brk-bg-center-cover lazyload" data-bg="{{asset('img/demo_creative_agency/1920x1080_1.jpg')}}">
+            <div class="pt-lg-110 pt-40 position-relative brk-bg-center-cover lazyload" >
                 <div class="brk-abs-bg-overlay brk-bg-gradient-40deg-92"></div>
                 <div class="container">
                     <div class="row">
@@ -473,7 +473,7 @@
 
         <section class="position-relative z-index-2">
 
-            <div class="pt-lg-110 pt-40 position-relative brk-bg-center-cover lazyload" data-bg="{{asset('img/demo_creative_agency/1920x1080_1.jpg')}}">
+            <div class="pt-lg-110 pt-40 position-relative brk-bg-center-cover lazyload" >
                 <div class="brk-abs-bg-overlay brk-bg-gradient-40deg-92"></div>
 
                 <div class="brk-abs-bg-overlay brk-bg-gradient-40deg-92"></div>
@@ -492,7 +492,7 @@
 					{&quot;breakpoint&quot;: 480, &quot;settings&quot;: {&quot;slidesToShow&quot;: 1}}
 					], &quot;autoplay&quot;: true, &quot;autoplaySpeed&quot;: 3000}" data-brk-library="slider__slick">
                     <div class="pl-15 pr-15">
-                        <div class="brk-team-strict" data-brk-library="component__team" style="background-image: url(img/team/team-1.png)"><a href="javascript:void(0)">
+                        <div class="brk-team-strict" data-brk-library="component__team" style="background-image: url(img/team/team-1.jpg)"><a href="javascript:void(0)">
                                 <h3 class="brk-team-strict__name font__family-montserrat font__weight-semibold font__size-21">M Alfan Nurdin S.Tr.T</h3>
                             </a>
                             <div class="brk-team-strict__social"><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a> <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a> <a href="javascript:void(0)"><i class="fab fa-google-plus-g"></i></a> <a href="javascript:void(0)"><i class="fab fa-youtube"></i></a> <a href="javascript:void(0)"><i class="fab fa-vimeo-v"></i></a> <a href="javascript:void(0)"><i class="fab fa-vk"></i></a></div>
@@ -500,7 +500,7 @@
                     </div>
 
                     <div class="pl-15 pr-15">
-                        <div class="brk-team-strict" data-brk-library="component__team" style="background-image: url(img/team/team-2.png)"><a href="javascript:void(0)">
+                        <div class="brk-team-strict" data-brk-library="component__team" style="background-image: url(img/team/team-2.jpg)"><a href="javascript:void(0)">
                                 <h3 class="brk-team-strict__name font__family-montserrat font__weight-semibold font__size-21">Achmad Maharrudin, SE,.M.SM</h3>
                             </a>
                             <div class="brk-team-strict__social"><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a> <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a> <a href="javascript:void(0)"><i class="fab fa-google-plus-g"></i></a> <a href="javascript:void(0)"><i class="fab fa-youtube"></i></a> <a href="javascript:void(0)"><i class="fab fa-vimeo-v"></i></a> <a href="javascript:void(0)"><i class="fab fa-vk"></i></a></div>
@@ -508,7 +508,7 @@
                     </div>
 
                     <div class="pl-15 pr-15">
-                        <div class="brk-team-strict" data-brk-library="component__team" style="background-image: url(img/team/team-3.png)"><a href="javascript:void(0)">
+                        <div class="brk-team-strict" data-brk-library="component__team" style="background-image: url(img/team/team-3.jpg)"><a href="javascript:void(0)">
                                 <h3 class="brk-team-strict__name font__family-montserrat font__weight-semibold font__size-21">Rizki Mahmudi S.Kom</h3>
                             </a>
                             <div class="brk-team-strict__social"><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a> <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a> <a href="javascript:void(0)"><i class="fab fa-google-plus-g"></i></a> <a href="javascript:void(0)"><i class="fab fa-youtube"></i></a> <a href="javascript:void(0)"><i class="fab fa-vimeo-v"></i></a> <a href="javascript:void(0)"><i class="fab fa-vk"></i></a></div>
@@ -516,14 +516,14 @@
                     </div>
 
                     <div class="pl-15 pr-15">
-                        <div class="brk-team-strict" data-brk-library="component__team" style="background-image: url(img/team/team-4.png)"><a href="javascript:void(0)">
+                        <div class="brk-team-strict" data-brk-library="component__team" style="background-image: url(img/team/team-4.jpg)"><a href="javascript:void(0)">
                                 <h3 class="brk-team-strict__name font__family-montserrat font__weight-semibold font__size-21">Aris Velani S.Sos</h3>
                             </a>
                             <div class="brk-team-strict__social"><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a> <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a> <a href="javascript:void(0)"><i class="fab fa-google-plus-g"></i></a> <a href="javascript:void(0)"><i class="fab fa-youtube"></i></a> <a href="javascript:void(0)"><i class="fab fa-vimeo-v"></i></a> <a href="javascript:void(0)"><i class="fab fa-vk"></i></a></div>
                         </div>
                     </div>
                     <div class="pl-15 pr-15">
-                        <div class="brk-team-strict" data-brk-library="component__team" style="background-image: url(img/team/team-5.png)"><a href="javascript:void(0)">
+                        <div class="brk-team-strict" data-brk-library="component__team" style="background-image: url(img/team/team-5.jpg)"><a href="javascript:void(0)">
                                 <h3 class="brk-team-strict__name font__family-montserrat font__weight-semibold font__size-21">Wahyudi Iskandar, S.E</h3>
                             </a>
                             <div class="brk-team-strict__social"><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a> <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a> <a href="javascript:void(0)"><i class="fab fa-google-plus-g"></i></a> <a href="javascript:void(0)"><i class="fab fa-youtube"></i></a> <a href="javascript:void(0)"><i class="fab fa-vimeo-v"></i></a> <a href="javascript:void(0)"><i class="fab fa-vk"></i></a></div>
@@ -531,7 +531,7 @@
                     </div>
 
                     <div class="pl-15 pr-15">
-                        <div class="brk-team-strict" data-brk-library="component__team" style="background-image: url(img/team/team-6.png)"><a href="javascript:void(0)">
+                        <div class="brk-team-strict" data-brk-library="component__team" style="background-image: url(img/team/team-6.jpg)"><a href="javascript:void(0)">
                                 <h3 class="brk-team-strict__name font__family-montserrat font__weight-semibold font__size-21">M Zakaria Firmansyah S.T</h3>
                             </a>
                             <div class="brk-team-strict__social"><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a> <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a> <a href="javascript:void(0)"><i class="fab fa-google-plus-g"></i></a> <a href="javascript:void(0)"><i class="fab fa-youtube"></i></a> <a href="javascript:void(0)"><i class="fab fa-vimeo-v"></i></a> <a href="javascript:void(0)"><i class="fab fa-vk"></i></a></div>
@@ -539,7 +539,7 @@
                     </div>
 
                     <div class="pl-15 pr-15">
-                        <div class="brk-team-strict" data-brk-library="component__team" style="background-image: url(img/team/team-7.png)"><a href="javascript:void(0)">
+                        <div class="brk-team-strict" data-brk-library="component__team" style="background-image: url(img/team/team-7.jpg)"><a href="javascript:void(0)">
                                 <h3 class="brk-team-strict__name font__family-montserrat font__weight-semibold font__size-21">Daldiri Surya Abdi</h3>
                             </a>
                             <div class="brk-team-strict__social"><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a> <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a> <a href="javascript:void(0)"><i class="fab fa-google-plus-g"></i></a> <a href="javascript:void(0)"><i class="fab fa-youtube"></i></a> <a href="javascript:void(0)"><i class="fab fa-vimeo-v"></i></a> <a href="javascript:void(0)"><i class="fab fa-vk"></i></a></div>

@@ -188,7 +188,7 @@
                         <div>
                             <div class="brk-ic-left-slide brk-ic-left-slide__pointer" data-brk-library="component__image_caption_css">
                                 <a href="#" class="brk-ic-left-slide__link"></a>
-                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/shop-home-page/slider-1.jpg" alt="alt" class="brk-ic-left-slide__img lazyload">
+                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{asset('img/cctv/product-dome.jpg')}}" alt="alt" class="brk-ic-left-slide__img lazyload">
                                 <div class="brk-ic-left-slide__overlay brk-base-bg-gradient-6-black"></div>
                                 <div class="brk-ic-left-slide__wrapper brk-ic-left-slide__wrapper_gradient brk-base-bg-gradient-50deg-a">
                                     <h3 class="brk-ic-left-slide__title font__size-21 line__height-28">
@@ -204,7 +204,7 @@
                         <div>
                             <div class="brk-ic-left-slide brk-ic-left-slide__pointer" data-brk-library="component__image_caption_css">
                                 <a href="#" class="brk-ic-left-slide__link"></a>
-                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/shop-home-page/slider-2.jpg" alt="alt" class="brk-ic-left-slide__img lazyload">
+                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{asset('img/cctv/product-bullet.jpg')}}" alt="alt" class="brk-ic-left-slide__img lazyload">
                                 <div class="brk-ic-left-slide__overlay brk-base-bg-gradient-6-black"></div>
                                 <div class="brk-ic-left-slide__wrapper brk-ic-left-slide__wrapper_gradient brk-base-bg-gradient-50deg-a">
                                     <h3 class="brk-ic-left-slide__title font__size-21 line__height-28">
@@ -220,7 +220,7 @@
                         <div>
                             <div class="brk-ic-left-slide brk-ic-left-slide__pointer" data-brk-library="component__image_caption_css">
                                 <a href="#" class="brk-ic-left-slide__link"></a>
-                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/shop-home-page/slider-3.jpg" alt="alt" class="brk-ic-left-slide__img lazyload">
+                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{asset('img/cctv/product-PTZ.jpg')}}" alt="alt" class="brk-ic-left-slide__img lazyload">
                                 <div class="brk-ic-left-slide__overlay brk-base-bg-gradient-6-black"></div>
                                 <div class="brk-ic-left-slide__wrapper brk-ic-left-slide__wrapper_gradient brk-base-bg-gradient-50deg-a">
                                     <h3 class="brk-ic-left-slide__title font__size-21 line__height-28">
@@ -358,7 +358,7 @@
                         <div>
                             <div class="brk-ic-left-slide brk-ic-left-slide__pointer" data-brk-library="component__image_caption_css">
                                 <a href="#" class="brk-ic-left-slide__link"></a>
-                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/shop-home-page/slider-1.jpg" alt="alt" class="brk-ic-left-slide__img lazyload">
+                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{asset('img/cctv/product-NVR.jpg')}}" alt="alt" class="brk-ic-left-slide__img lazyload">
                                 <div class="brk-ic-left-slide__overlay brk-base-bg-gradient-6-black"></div>
                                 <div class="brk-ic-left-slide__wrapper brk-ic-left-slide__wrapper_gradient brk-base-bg-gradient-50deg-a">
                                     <h3 class="brk-ic-left-slide__title font__size-21 line__height-28">
@@ -374,7 +374,7 @@
                         <div>
                             <div class="brk-ic-left-slide brk-ic-left-slide__pointer" data-brk-library="component__image_caption_css">
                                 <a href="#" class="brk-ic-left-slide__link"></a>
-                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/shop-home-page/slider-2.jpg" alt="alt" class="brk-ic-left-slide__img lazyload">
+                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{asset('img/cctv/product-NVR-AI.jpg')}}" alt="alt" class="brk-ic-left-slide__img lazyload">
                                 <div class="brk-ic-left-slide__overlay brk-base-bg-gradient-6-black"></div>
                                 <div class="brk-ic-left-slide__wrapper brk-ic-left-slide__wrapper_gradient brk-base-bg-gradient-50deg-a">
                                     <h3 class="brk-ic-left-slide__title font__size-21 line__height-28">
@@ -499,7 +499,7 @@
                         <div>
                             <div class="brk-ic-left-slide brk-ic-left-slide__pointer" data-brk-library="component__image_caption_css">
                                 <a href="#" class="brk-ic-left-slide__link"></a>
-                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/shop-home-page/slider-1.jpg" alt="alt" class="brk-ic-left-slide__img lazyload">
+                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{asset('img/cctv/product-DVR-turbo-HD.jpg')}}" alt="alt" class="brk-ic-left-slide__img lazyload">
                                 <div class="brk-ic-left-slide__overlay brk-base-bg-gradient-6-black"></div>
                                 <div class="brk-ic-left-slide__wrapper brk-ic-left-slide__wrapper_gradient brk-base-bg-gradient-50deg-a">
                                     <h3 class="brk-ic-left-slide__title font__size-21 line__height-28">
@@ -515,7 +515,7 @@
                         <div>
                             <div class="brk-ic-left-slide brk-ic-left-slide__pointer" data-brk-library="component__image_caption_css">
                                 <a href="#" class="brk-ic-left-slide__link"></a>
-                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/shop-home-page/slider-2.jpg" alt="alt" class="brk-ic-left-slide__img lazyload">
+                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{asset('img/cctv/product-Hybrid-DVR.jpg')}}" alt="alt" class="brk-ic-left-slide__img lazyload">
                                 <div class="brk-ic-left-slide__overlay brk-base-bg-gradient-6-black"></div>
                                 <div class="brk-ic-left-slide__wrapper brk-ic-left-slide__wrapper_gradient brk-base-bg-gradient-50deg-a">
                                     <h3 class="brk-ic-left-slide__title font__size-21 line__height-28">

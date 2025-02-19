@@ -1,4 +1,4 @@
-<header class="brk-header brk-header_style-1 brk-header_color-white brk-header_skin-1 d-lg-flex flex-column" style="display: none;" data-logo-src="{{asset('img/logo-dark-2.png')}}" data-bg-mobile="{{asset('img/brk-bg-mobile-menu.jpg')}}" data-sticky-hide="0" data-brk-library="component__header">
+<header class="brk-header brk-header_style-1 brk-header_color-white brk-header_skin-1 d-lg-flex flex-column" style="display: none;" data-logo-src="{{asset('img/footer/brk-logo-2.png')}}" data-bg-mobile="{{asset('img/brk-bg-mobile-menu.jpg')}}" data-sticky-hide="0" data-brk-library="component__header">
    
     <div class="brk-header__main-bar brk-header_border-bottom order-lg-2 order-1" style="height: 72px;">
         <div class="container-fluid">

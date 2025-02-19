@@ -2,15 +2,19 @@
 <html lang="en" data-brk-skin="{{asset('brk-blue.css')}}">
 
 <head>
-    <title>PT Putra Wisanggeni Satu</title>
+    <title>Jasa Pembuatan Aplikasi & Website - PT Putra Wisanggeni Satu</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1">
-    <meta name="format-detection" content="telephone=no">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="apple-touch-icon-precomposed" href="favicon.ico">
+    <meta name="format-detection" content="telephone=6282232469415">
     <meta name="theme-color" content="#2775FF">
-    <meta name="keywords" content="themeforest, theme, html, template">
-    <meta name="description" content="themeforest, theme, html, template">
+    <meta name="keywords" content="jasa pembuatan aplikasi mobile, jasa pembuatan website, otomasi industri, IoT, pemasangan CCTV, PT Putra Wisanggeni Satu">
+    <meta name="description" content="PT Putra Wisanggeni Satu menyediakan jasa pembuatan aplikasi mobile, website, otomasi industri, IoT, dan pemasangan CCTV. Solusi teknologi terbaik untuk bisnis Anda.">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="{{asset('img/favicon/apple-touch-icon.png')}}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{asset('img/favicon/favicon-32x32.png')}}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('img/favicon/favicon-16x16.png')}}">
+    <link rel="manifest" href="{{asset('img/favicon/site.webmanifest')}}">
+
     <link rel="stylesheet" id="brk-direction-bootstrap" href="{{asset('css/assets/bootstrap.css')}}">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" id="brk-skin-color" href="{{asset('css/skins/brk-blue.css')}}">
@@ -18,6 +22,70 @@
     <link rel="stylesheet" id="brk-direction-offsets" href="{{asset('css/assets/offsets.css')}}">
     <link id="brk-css-min" rel="stylesheet" href="{{asset('css/assets/styles.min.css')}}">
     <link rel="stylesheet" href="{{asset('vendor/revslider/css/settings.css')}}">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "PT Putra Wisanggeni Satu",
+            "image": "{{asset('img/favicon/android-chrome-192x192.png')}}",
+            "logo": "{{asset('img/favicon/android-chrome-192x192.png')}}",
+            "url": "https://www.ptpws.id",
+            "telephone": "+6282232469415",
+            "email": "info@putrawisanggeni.com",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Jl. Contoh No. 123",
+                "addressLocality": "Jakarta",
+                "addressRegion": "DKI Jakarta",
+                "postalCode": "10110",
+                "addressCountry": "ID"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "-6.2088",
+                "longitude": "106.8456"
+            },
+            "openingHours": "Mo-Fr 08:00-17:00",
+            "priceRange": "$$",
+            "serviceArea": {
+                "@type": "AdministrativeArea",
+                "name": "Indonesia"
+            },
+            "services": [{
+                    "@type": "Service",
+                    "name": "Jasa Pembuatan Website",
+                    "url": "https://www.ptpws.id/website",
+                    "description": "Pembuatan website profesional, landing page, toko online, dan custom development."
+                },
+                {
+                    "@type": "Service",
+                    "name": "Jasa Pembuatan Aplikasi Android",
+                    "url": "https://www.ptpws.id/android",
+                    "description": "Pengembangan aplikasi Android berbasis native atau hybrid."
+                },
+                
+                {
+                    "@type": "Service",
+                    "name": "Otomatisasi Industrial",
+                    "url": "https://www.ptpws.id/otomasi",
+                    "description": "Solusi otomasi untuk industri dengan sistem SCADA, PLC, dan sensor IoT."
+                },
+                {
+                    "@type": "Service",
+                    "name": "Pemasangan CCTV",
+                    "url": "https://www.ptpws.id/cctv",
+                    "description": "Instalasi sistem CCTV dengan remote monitoring dan AI detection."
+                },
+                {
+                    "@type": "Service",
+                    "name": "Instalasi Internet of Things (IoT)",
+                    "url": "https://www.ptpws.id/iot",
+                    "description": "Solusi IoT untuk smart home, smart farming, dan enterprise."
+                }
+            ]
+        }
+    </script>
+
 
 
 </head>
@@ -26,7 +94,7 @@
     <div class="brk-loader">
         <div class="brk-loader__loader"></div>
     </div>
-    
+
     <style>
         #rev_slider_24_1_wrapper .tp-loader.spinner2 {
             background-color: #0071fc !important;
@@ -132,7 +200,7 @@
     <div class="main-page">
 
         @yield('content')
-       
+
         <!-- footer -->
         @include('template.footer')
 

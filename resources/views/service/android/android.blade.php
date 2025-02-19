@@ -3,7 +3,7 @@
 @section('title', 'About')
 
 @section('content')
-<div class="breadcrumbs__section breadcrumbs__section-thin brk-bg-center-cover lazyload" data-bg="img/1920x258_1.jpg" data-brk-library="component__breadcrumbs_css">
+<div class="breadcrumbs__section breadcrumbs__section-thin brk-bg-center-cover lazyload" data-brk-library="component__breadcrumbs_css">
     <span class="brk-abs-bg-overlay brk-bg-grad opacity-80"></span>
     <div class="breadcrumbs__wrapper">
         <div class="container">
@@ -524,14 +524,14 @@
                 </div>
             </div>
             <div class="container">
-                <div class="all-light pt-80 pb-80 bg__style overlay__gradient overlay__gradient-left" data-brk-library="component__steps" style="background-image: url(img/bg-1920_1.jpg);">
+                <div class="all-light pt-80 pb-80 bg__style overlay__gradient overlay__gradient-left" data-brk-library="component__steps">
                     <div class="container mt-60">
                         <div class="tabs-wrapper maxw-970">
                             <div class="steps__wrapper-main steps__wrapper-gradient">
                                 <div class="steps__progress"></div>
                                 <ul class="steps__wrapper tabs" data-tabgroup="tab-group-2">
                                     <li class="complete">
-                                        <a href="#tab-2_1">
+                                        <a href="#tab-2_1" class="active">
                                             <p class="font__family-montserrat font__weight-ultralight font__size-15 letter-spacing-20 steps__title">STEP 1</p>
                                             <span class="steps__dot">
                                                 <span class="before"></span>
@@ -540,7 +540,7 @@
                                         </a>
                                     </li>
                                     <li class="complete">
-                                        <a href="#tab-2_2" class="active">
+                                        <a href="#tab-2_2" >
                                             <p class="font__family-montserrat font__weight-ultralight font__size-15 letter-spacing-20 steps__title">STEP 2</p>
                                             <span class="steps__dot">
                                                 <span class="before"></span>
