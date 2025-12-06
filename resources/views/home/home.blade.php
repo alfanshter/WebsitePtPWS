@@ -1,13 +1,191 @@
 @extends('template.master')
 
-@section('title', 'Home')
+@section('title', 'Jasa Pembuatan Aplikasi Mobile, Website & IoT Terpercaya | PT Putra Wisanggeni Satu')
+
+@section('meta_description', 'PT Putra Wisanggeni Satu menyediakan solusi IoT, aplikasi mobile, website profesional, otomasi industri, dan CCTV. Teknologi terkini dengan tim berpengalaman untuk bisnis Anda. Hubungi kami!')
+
+@section('meta_keywords', 'jasa pembuatan aplikasi, jasa pembuatan website, IoT Indonesia, otomasi industri, CCTV profesional, software development, aplikasi mobile Android iOS, web development, smart home, industri 4.0')
+
+@section('og_title', 'PT Putra Wisanggeni Satu - Solusi IoT & Software Development Terpercaya')
+@section('og_description', 'Solusi teknologi terbaik untuk bisnis Anda: IoT, Aplikasi Mobile, Website, Otomasi Industri, dan CCTV. Tim profesional dengan teknologi terkini siap membantu transformasi digital Anda.')
+
+@section('twitter_title', 'PT Putra Wisanggeni Satu - Solusi IoT & Software Development')
+@section('twitter_description', 'Jasa pembuatan aplikasi mobile, website, IoT, otomasi industri & CCTV terpercaya. Teknologi terkini untuk bisnis masa depan.')
+
+@section('additional_schema')
+<!-- FAQPage Schema for Homepage -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "Apa saja layanan yang ditawarkan PT Putra Wisanggeni Satu?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "PT Putra Wisanggeni Satu menyediakan berbagai layanan teknologi: Internet of Things (IoT) untuk automasi dan monitoring, Software Development untuk aplikasi mobile dan website, Otomasi Industri dengan sistem SCADA dan PLC, Pemasangan CCTV dengan AI detection, Smart Home Solutions, dan Cloud Solutions untuk infrastruktur IT bisnis Anda."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Berapa lama waktu pengerjaan proyek aplikasi atau website?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Waktu pengerjaan bervariasi tergantung kompleksitas proyek. Website sederhana membutuhkan 2-4 minggu, aplikasi mobile 1-3 bulan, dan sistem IoT atau otomasi industri 1-6 bulan. Kami akan memberikan estimasi timeline yang jelas setelah analisis kebutuhan Anda."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Apakah PT Putra Wisanggeni Satu melayani proyek di seluruh Indonesia?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ya, kami melayani proyek di seluruh Indonesia. Untuk proyek software development dan aplikasi, kami dapat bekerja secara remote. Untuk instalasi hardware seperti IoT, CCTV, dan otomasi industri, tim kami siap datang ke lokasi Anda di berbagai kota di Indonesia."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Bagaimana cara mendapatkan penawaran harga untuk proyek?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Anda dapat menghubungi kami melalui WhatsApp di +6282232469415 atau email ke info@putrawisanggeni.com. Tim kami akan melakukan konsultasi gratis untuk memahami kebutuhan Anda dan memberikan penawaran harga yang kompetitif sesuai scope proyek."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Apakah ada garansi dan maintenance setelah proyek selesai?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ya, kami memberikan garansi untuk setiap proyek yang kami kerjakan. Untuk software dan aplikasi, kami menyediakan bug fixing dan support teknis. Kami juga menawarkan paket maintenance bulanan untuk monitoring sistem, update berkala, dan technical support 24/7."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Teknologi apa saja yang digunakan dalam pengembangan aplikasi?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Kami menggunakan teknologi terkini sesuai kebutuhan proyek: untuk mobile development menggunakan Android Native (Kotlin/Java), iOS (Swift), React Native, dan Flutter. Untuk web development menggunakan Laravel, React, Vue.js, Node.js. Untuk IoT menggunakan Arduino, Raspberry Pi, ESP32, MQTT, dan platform cloud IoT."
+            }
+        }
+    ]
+}
+</script>
+
+<!-- Service-specific Schema -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Layanan Utama PT Putra Wisanggeni Satu",
+    "description": "Daftar lengkap layanan teknologi yang kami tawarkan",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "@type": "Service",
+                "@id": "{{ url('/') }}#iot-service",
+                "name": "Internet of Things (IoT)",
+                "description": "Solusi IoT cerdas untuk menghubungkan perangkat, monitoring real-time, dan automasi terintegrasi",
+                "provider": {
+                    "@type": "Organization",
+                    "name": "PT Putra Wisanggeni Satu"
+                },
+                "serviceType": "IoT Solutions",
+                "areaServed": "Indonesia"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+                "@type": "Service",
+                "@id": "{{ url('/') }}#software-development",
+                "name": "Software Development",
+                "description": "Pembuatan aplikasi mobile, website, dan sistem informasi custom",
+                "provider": {
+                    "@type": "Organization",
+                    "name": "PT Putra Wisanggeni Satu"
+                },
+                "serviceType": "Software Development",
+                "areaServed": "Indonesia"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+                "@type": "Service",
+                "@id": "{{ url('/') }}#industrial-automation",
+                "name": "Otomasi Industri",
+                "description": "Sistem otomasi dengan SCADA, PLC, dan sensor IoT untuk efisiensi operasional",
+                "provider": {
+                    "@type": "Organization",
+                    "name": "PT Putra Wisanggeni Satu"
+                },
+                "serviceType": "Industrial Automation",
+                "areaServed": "Indonesia"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+                "@type": "Service",
+                "@id": "{{ url('/') }}#cctv-security",
+                "name": "CCTV & Security System",
+                "description": "Instalasi CCTV profesional dengan remote monitoring dan AI detection",
+                "provider": {
+                    "@type": "Organization",
+                    "name": "PT Putra Wisanggeni Satu"
+                },
+                "serviceType": "Security Systems",
+                "areaServed": "Indonesia"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 5,
+            "item": {
+                "@type": "Service",
+                "@id": "{{ url('/') }}#smart-home",
+                "name": "Smart Home Solutions",
+                "description": "Implementasi smart home dengan kontrol otomatis dan integrasi IoT devices",
+                "provider": {
+                    "@type": "Organization",
+                    "name": "PT Putra Wisanggeni Satu"
+                },
+                "serviceType": "Smart Home",
+                "areaServed": "Indonesia"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 6,
+            "item": {
+                "@type": "Service",
+                "@id": "{{ url('/') }}#cloud-solutions",
+                "name": "Cloud Solutions",
+                "description": "Layanan cloud computing, hosting, dan infrastruktur IT berbasis cloud",
+                "provider": {
+                    "@type": "Organization",
+                    "name": "PT Putra Wisanggeni Satu"
+                },
+                "serviceType": "Cloud Computing",
+                "areaServed": "Indonesia"
+            }
+        }
+    ]
+}
+</script>
+@endsection
 
 @section('content')
-<div id="rev_slider_24_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="demo_creative_agency" data-source="gallery" style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
-			<div id="rev_slider_24_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.8.1">
+<div id="rev_slider_24_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="demo_creative_agency" data-source="gallery" style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;min-height:600px;">
+			<div id="rev_slider_24_1" class="rev_slider fullwidthabanner" style="display:none;height:600px;" data-version="5.4.8.1">
 				<ul>
 					<li data-index="rs-54" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="1000" data-thumb="{{asset('img/bg/bgheader_100x50.jpg')}}" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-						<img src="{{asset('img/bg/bgheader.jpg')}}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+						<img src="{{asset('img/bg/bgheader.jpg')}}" alt="PT Putra Wisanggeni Satu - Solusi IoT, Aplikasi Mobile, Website & Otomasi Industri Terpercaya" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
 						<div class="tp-caption rev_group" id="slide-54-layer-25" data-x="['center','center','center','center']" data-hoffset="['27','0','0','0']" data-y="['top','top','top','top']" data-voffset="['541','399','369','365']" data-width="['330','310','310','309']" data-height="['100','100','100','174']" data-whitespace="nowrap" data-type="group" data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 17; min-width: 330px; max-width: 330px; max-width: 100px; max-width: 100px; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: 0px;">
 							<div class="tp-caption" id="slide-54-layer-29" data-x="['left','left','left','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','top']" data-voffset="['0','0','0','0']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 18; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Open Sans;"><a href="https://www.youtube.com/watch?v=cZM8OoYu4So&feature=youtu.be" target="_blank" data-brk-library="component__button" class="icon__btn icon__btn-white icon__btn-lg icon__btn-circled m-0"><i class="fas fa-play"></i><span class="before"></span><span class="after"></span></a> </div>
 							<div class="tp-caption" id="slide-54-layer-20" data-x="['left','left','left','center']" data-hoffset="['114','114','114','0']" data-y="['middle','middle','middle','top']" data-voffset="['-7','-7','-7','100']" data-fontsize="['28','26','26','26']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":"+0","speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]' data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 19; white-space: nowrap; font-size: 28px; line-height: 30px; font-weight: 700; color: #ffffff; letter-spacing: 0px;font-family:Montserrat;text-transform:uppercase;">Who we are </div>
@@ -20,17 +198,17 @@
 						<div class="tp-caption tp-shape tp-shapewrapper" id="slide-54-layer-10" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['163','110','110','110']" data-width="['540','400','400','400']" data-height="['700','550','550','550']" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames='[{"delay":10,"speed":1500,"frame":"0","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","ease":"Power3.easeInOut"}]' data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7;border-color:rgba(255,255,255,0.1);border-style:solid;border-width:5px 5px 5px 5px;">
 							<div class="rs-looped rs-pulse" data-easing="Power0.easeInOut" data-speed="1" data-zoomstart="1" data-zoomend="1.05"> </div>
 						</div>
-						<div class="tp-caption rs-parallaxlevel-2" id="slide-54-layer-11" data-x="['left','left','left','left']" data-hoffset="['138','90','90','90']" data-y="['top','top','top','top']" data-voffset="['180','100','100','100']" data-width="none" data-height="none" data-whitespace="nowrap" data-visibility="['on','on','off','off']" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"delay":10,"speed":1000,"frame":"0","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","ease":"Power3.easeInOut"}]' data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8;"><img src="{{asset('img/animation/triangle.png')}}" alt="" data-ww="" data-hh="" data-no-retina> </div>
-						<div class="tp-caption rs-parallaxlevel-1" id="slide-54-layer-12" data-x="['left','left','left','left']" data-hoffset="['138','54','54','54']" data-y="['top','top','top','top']" data-voffset="['595','394','394','394']" data-width="none" data-height="none" data-whitespace="nowrap" data-visibility="['on','on','off','off']" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"delay":10,"speed":1000,"frame":"0","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","ease":"Power3.easeInOut"}]' data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9;"><img src="{{asset('img/animation/triangle2.png')}}" alt="" data-ww="" data-hh="" data-no-retina> </div>
-						<div class="tp-caption rs-parallaxlevel-3" id="slide-54-layer-13" data-x="['left','left','left','left']" data-hoffset="['400','144','144','144']" data-y="['top','top','top','top']" data-voffset="['693','526','526','526']" data-width="none" data-height="none" data-whitespace="nowrap" data-visibility="['on','on','off','off']" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"delay":10,"speed":1000,"frame":"0","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","ease":"Power3.easeInOut"}]' data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10;"><img src="{{asset('img/animation/triangle3.png')}}" alt="" data-ww="" data-hh="" data-no-retina> </div>
-						<div class="tp-caption rs-parallaxlevel-4" id="slide-54-layer-14" data-x="['right','right','right','right']" data-hoffset="['138','90','90','90']" data-y="['top','top','top','top']" data-voffset="['180','100','100','100']" data-width="none" data-height="none" data-whitespace="nowrap" data-visibility="['on','on','off','off']" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"delay":10,"speed":1000,"frame":"0","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","ease":"Power3.easeInOut"}]' data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11;"><img src="{{asset('img/animation/triangle4.png')}}" alt="" data-ww="['179px','179px','179px','179px']" data-hh="['162px','162px','162px','162px']" data-no-retina> </div>
-						<div class="tp-caption rs-parallaxlevel-1" id="slide-54-layer-15" data-x="['right','right','right','right']" data-hoffset="['138','48','48','48']" data-y="['top','top','top','top']" data-voffset="['546','398','398','398']" data-width="none" data-height="none" data-whitespace="nowrap" data-visibility="['on','on','off','off']" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"delay":10,"speed":1000,"frame":"0","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","ease":"Power3.easeInOut"}]' data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 12;"><img src="{{asset('img/animation/triangle5.png')}}" alt="" data-ww="['145px','145px','145px','145px']" data-hh="['92px','92px','92px','92px']" data-no-retina> </div>
-						<div class="tp-caption rs-parallaxlevel-2" id="slide-54-layer-17" data-x="['right','right','right','right']" data-hoffset="['360','52','52','52']" data-y="['top','top','top','top']" data-voffset="['659','550','550','550']" data-width="none" data-height="none" data-whitespace="nowrap" data-visibility="['on','on','off','off']" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"delay":10,"speed":1000,"frame":"0","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","ease":"Power3.easeInOut"}]' data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 13;"><img src="{{asset('img/animation/triangle6.png')}}" alt="" data-ww="['142auto','142auto','142auto','142auto']" data-hh="['112px','112px','112px','112px']" data-no-retina> </div>
+						<div class="tp-caption rs-parallaxlevel-2" id="slide-54-layer-11" data-x="['left','left','left','left']" data-hoffset="['138','90','90','90']" data-y="['top','top','top','top']" data-voffset="['180','100','100','100']" data-width="none" data-height="none" data-whitespace="nowrap" data-visibility="['on','on','off','off']" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"delay":10,"speed":1000,"frame":"0","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","ease":"Power3.easeInOut"}]' data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8;"><img src="{{asset('img/animation/triangle.png')}}" alt="Decorative Triangle Animation" data-ww="" data-hh="" data-no-retina> </div>
+						<div class="tp-caption rs-parallaxlevel-1" id="slide-54-layer-12" data-x="['left','left','left','left']" data-hoffset="['138','54','54','54']" data-y="['top','top','top','top']" data-voffset="['595','394','394','394']" data-width="none" data-height="none" data-whitespace="nowrap" data-visibility="['on','on','off','off']" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"delay":10,"speed":1000,"frame":"0","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","ease":"Power3.easeInOut"}]' data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9;"><img src="{{asset('img/animation/triangle2.png')}}" alt="Decorative Triangle Animation" data-ww="" data-hh="" data-no-retina> </div>
+						<div class="tp-caption rs-parallaxlevel-3" id="slide-54-layer-13" data-x="['left','left','left','left']" data-hoffset="['400','144','144','144']" data-y="['top','top','top','top']" data-voffset="['693','526','526','526']" data-width="none" data-height="none" data-whitespace="nowrap" data-visibility="['on','on','off','off']" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"delay":10,"speed":1000,"frame":"0","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","ease":"Power3.easeInOut"}]' data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10;"><img src="{{asset('img/animation/triangle3.png')}}" alt="Decorative Triangle Animation" data-ww="" data-hh="" data-no-retina> </div>
+						<div class="tp-caption rs-parallaxlevel-4" id="slide-54-layer-14" data-x="['right','right','right','right']" data-hoffset="['138','90','90','90']" data-y="['top','top','top','top']" data-voffset="['180','100','100','100']" data-width="none" data-height="none" data-whitespace="nowrap" data-visibility="['on','on','off','off']" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"delay":10,"speed":1000,"frame":"0","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","ease":"Power3.easeInOut"}]' data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11;"><img src="{{asset('img/animation/triangle4.png')}}" alt="Decorative Triangle Animation" data-ww="['179px','179px','179px','179px']" data-hh="['162px','162px','162px','162px']" data-no-retina> </div>
+						<div class="tp-caption rs-parallaxlevel-1" id="slide-54-layer-15" data-x="['right','right','right','right']" data-hoffset="['138','48','48','48']" data-y="['top','top','top','top']" data-voffset="['546','398','398','398']" data-width="none" data-height="none" data-whitespace="nowrap" data-visibility="['on','on','off','off']" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"delay":10,"speed":1000,"frame":"0","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","ease":"Power3.easeInOut"}]' data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 12;"><img src="{{asset('img/animation/triangle5.png')}}" alt="Decorative Triangle Animation" data-ww="['145px','145px','145px','145px']" data-hh="['92px','92px','92px','92px']" data-no-retina> </div>
+						<div class="tp-caption rs-parallaxlevel-2" id="slide-54-layer-17" data-x="['right','right','right','right']" data-hoffset="['360','52','52','52']" data-y="['top','top','top','top']" data-voffset="['659','550','550','550']" data-width="none" data-height="none" data-whitespace="nowrap" data-visibility="['on','on','off','off']" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"delay":10,"speed":1000,"frame":"0","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","ease":"Power3.easeInOut"}]' data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 13;"><img src="{{asset('img/animation/triangle6.png')}}" alt="Decorative Triangle Animation" data-ww="['142auto','142auto','142auto','142auto']" data-hh="['112px','112px','112px','112px']" data-no-retina> </div>
 						<div class="tp-caption" id="slide-54-layer-18" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['334','253','225','225']" data-fontsize="['72','54','40','40']" data-lineheight="['78','58','42','42']" data-width="['980','750','576','576']" data-height="['157','none','85','85']" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames='[{"delay":10,"split":"chars","splitdelay":0.05,"speed":1000,"split_direction":"forward","frame":"0","from":"y:[100%];z:0;rZ:-35deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":800,"frame":"999","to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"nothing"}]' data-textalign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 14; min-width: 980px; max-width: 980px; max-width: 157px; max-width: 157px; white-space: normal; font-size: 72px; line-height: 78px; font-weight: 700; color: #ffffff; letter-spacing: 0px;font-family:Montserrat;text-transform:uppercase;">PT PUTRA WISANGGENI SATU </div>
 							<div class="tp-caption" id="slide-54-layer-19" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['784','576','576','576']" data-width="none" data-height="none" data-whitespace="nowrap" data-visibility="['on','on','on','off']" data-type="image" data-actions='[{"event":"click","action":"scrollbelow","offset":"-230px","delay":"","speed":"500","ease":"Linear.easeNone"}]' data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":10,"speed":800,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":800,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 15;cursor:pointer;">
-								<div class="rs-looped rs-slideloop" data-easing="Linear.easeNone" data-speed="1" data-xs="0" data-xe="0" data-ys="-8" data-ye="8"><img src="{{asset('img/animation/triangle7.png')}}" alt="" data-ww="" data-hh="" data-no-retina> </div>
+								<div class="rs-looped rs-slideloop" data-easing="Linear.easeNone" data-speed="1" data-xs="0" data-xe="0" data-ys="-8" data-ye="8"><img src="{{asset('img/animation/triangle7.png')}}" alt="Scroll Down Indicator" data-ww="" data-hh="" data-no-retina> </div>
 							</div>
-							<div class="tp-caption" id="slide-54-layer-23" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-1','-1','-1','-1']" data-width="full" data-height="none" data-whitespace="nowrap" data-visibility="['on','on','off','off']" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 16;"><img src="{{asset('img/animation/triangle8.png')}}" alt="" data-ww="['full','full','full','full']" data-hh="" data-no-retina> </div>
+							<div class="tp-caption" id="slide-54-layer-23" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-1','-1','-1','-1']" data-width="full" data-height="none" data-whitespace="nowrap" data-visibility="['on','on','off','off']" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 16;"><img src="{{asset('img/animation/triangle8.png')}}" alt="Decorative Triangle Pattern" data-ww="['full','full','full','full']" data-hh="" data-no-retina> </div>
 					</li>
 				</ul>
 				<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
@@ -148,10 +326,10 @@
                         <div class="brk-img-double-wide" data-brk-library="component__image_frames">
                             <div class="brk-img-double-wide__container">
                                 <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ asset('img/home/pict-2.png') }}"
-                                    alt="alt" class="lazyload">
+                                    alt="PT Putra Wisanggeni Satu - Tim Profesional IoT dan Software Development" style="width:100%; height:auto;" class="lazyload">
                             </div>
                             <div class="brk-img-double-wide__container">
-                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{asset('img/home/pict-1.jpg')}}" alt="alt" class="lazyload">
+                                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{asset('img/home/pict-1.jpg')}}" alt="PT Putra Wisanggeni Satu - Pengalaman di Bidang Teknologi dan Otomasi" style="width:100%; height:auto;" class="lazyload">
                             </div>
                         </div>
                     </div>
@@ -395,7 +573,7 @@
                                             <div class="brk-testimonials-dash-one">
                                                 <div class="brk-testimonials-dash-one__info">
                                                     <div class="brk-testimonials-dash-one__img">
-                                                        <img src="{{asset('img/client/client_116x116_2.jpg')}}" alt="alt">
+                                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{asset('img/client/client_116x116_2.jpg')}}" alt="Client Testimonial - Novian Arma" style="width:116px; height:116px;" class="lazyload">
                                                     </div>
                                                     <div class="brk-rating" data-brk-library="component__elements">
                                                         <div class="brk-rating__layer brk-dark-font-color">
@@ -426,7 +604,7 @@
                                             <div class="brk-testimonials-dash-one">
                                                 <div class="brk-testimonials-dash-one__info">
                                                     <div class="brk-testimonials-dash-one__img">
-                                                        <img src="{{asset('img/client/client_116x116_1.jpg')}}" alt="alt">
+                                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{asset('img/client/client_116x116_1.jpg')}}" alt="Client Testimonial - I Made Gede" style="width:116px; height:116px;" class="lazyload">
                                                     </div>
                                                     <div class="brk-rating" data-brk-library="component__elements">
                                                         <div class="brk-rating__layer brk-dark-font-color">
@@ -471,83 +649,6 @@
             </div>
         </section>
 
-        <section class="position-relative z-index-2">
 
-            <div class="pt-lg-110 pt-40 position-relative brk-bg-center-cover lazyload" >
-                <div class="brk-abs-bg-overlay brk-bg-gradient-40deg-92"></div>
-
-                <div class="brk-abs-bg-overlay brk-bg-gradient-40deg-92"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-sm-4">
-                            <h2 class="brk-white-font-color font__family-montserrat font__size-56 line__height-64 font__weight-bold text-center text-sm-left pb-sm-40 pb-15">Best Team : </h2>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="default-slider slick-loading arrows-classic-dark fa-req" data-slick="{&quot;slidesToShow&quot;: 4, &quot;slidesToScroll&quot;: 1, &quot;arrows&quot;: true,
-					&quot;responsive&quot;: [
-					{&quot;breakpoint&quot;: 992, &quot;settings&quot;: {&quot;slidesToShow&quot;: 3}},
-					{&quot;breakpoint&quot;: 768, &quot;settings&quot;: {&quot;slidesToShow&quot;: 2}},
-					{&quot;breakpoint&quot;: 480, &quot;settings&quot;: {&quot;slidesToShow&quot;: 1}}
-					], &quot;autoplay&quot;: true, &quot;autoplaySpeed&quot;: 3000}" data-brk-library="slider__slick">
-                    <div class="pl-15 pr-15">
-                        <div class="brk-team-strict" data-brk-library="component__team" style="background-image: url(img/team/team-1.jpg)"><a href="javascript:void(0)">
-                                <h3 class="brk-team-strict__name font__family-montserrat font__weight-semibold font__size-21">M Alfan Nurdin S.Tr.T</h3>
-                            </a>
-                            <div class="brk-team-strict__social"><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a> <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a> <a href="javascript:void(0)"><i class="fab fa-google-plus-g"></i></a> <a href="javascript:void(0)"><i class="fab fa-youtube"></i></a> <a href="javascript:void(0)"><i class="fab fa-vimeo-v"></i></a> <a href="javascript:void(0)"><i class="fab fa-vk"></i></a></div>
-                        </div>
-                    </div>
-
-                    <div class="pl-15 pr-15">
-                        <div class="brk-team-strict" data-brk-library="component__team" style="background-image: url(img/team/team-2.jpg)"><a href="javascript:void(0)">
-                                <h3 class="brk-team-strict__name font__family-montserrat font__weight-semibold font__size-21">Achmad Maharrudin, SE,.M.SM</h3>
-                            </a>
-                            <div class="brk-team-strict__social"><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a> <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a> <a href="javascript:void(0)"><i class="fab fa-google-plus-g"></i></a> <a href="javascript:void(0)"><i class="fab fa-youtube"></i></a> <a href="javascript:void(0)"><i class="fab fa-vimeo-v"></i></a> <a href="javascript:void(0)"><i class="fab fa-vk"></i></a></div>
-                        </div>
-                    </div>
-
-                    <div class="pl-15 pr-15">
-                        <div class="brk-team-strict" data-brk-library="component__team" style="background-image: url(img/team/team-3.jpg)"><a href="javascript:void(0)">
-                                <h3 class="brk-team-strict__name font__family-montserrat font__weight-semibold font__size-21">Rizki Mahmudi S.Kom</h3>
-                            </a>
-                            <div class="brk-team-strict__social"><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a> <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a> <a href="javascript:void(0)"><i class="fab fa-google-plus-g"></i></a> <a href="javascript:void(0)"><i class="fab fa-youtube"></i></a> <a href="javascript:void(0)"><i class="fab fa-vimeo-v"></i></a> <a href="javascript:void(0)"><i class="fab fa-vk"></i></a></div>
-                        </div>
-                    </div>
-
-                    <div class="pl-15 pr-15">
-                        <div class="brk-team-strict" data-brk-library="component__team" style="background-image: url(img/team/team-4.jpg)"><a href="javascript:void(0)">
-                                <h3 class="brk-team-strict__name font__family-montserrat font__weight-semibold font__size-21">Aris Velani S.Sos</h3>
-                            </a>
-                            <div class="brk-team-strict__social"><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a> <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a> <a href="javascript:void(0)"><i class="fab fa-google-plus-g"></i></a> <a href="javascript:void(0)"><i class="fab fa-youtube"></i></a> <a href="javascript:void(0)"><i class="fab fa-vimeo-v"></i></a> <a href="javascript:void(0)"><i class="fab fa-vk"></i></a></div>
-                        </div>
-                    </div>
-                    <div class="pl-15 pr-15">
-                        <div class="brk-team-strict" data-brk-library="component__team" style="background-image: url(img/team/team-5.jpg)"><a href="javascript:void(0)">
-                                <h3 class="brk-team-strict__name font__family-montserrat font__weight-semibold font__size-21">Wahyudi Iskandar, S.E</h3>
-                            </a>
-                            <div class="brk-team-strict__social"><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a> <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a> <a href="javascript:void(0)"><i class="fab fa-google-plus-g"></i></a> <a href="javascript:void(0)"><i class="fab fa-youtube"></i></a> <a href="javascript:void(0)"><i class="fab fa-vimeo-v"></i></a> <a href="javascript:void(0)"><i class="fab fa-vk"></i></a></div>
-                        </div>
-                    </div>
-
-                    <div class="pl-15 pr-15">
-                        <div class="brk-team-strict" data-brk-library="component__team" style="background-image: url(img/team/team-6.jpg)"><a href="javascript:void(0)">
-                                <h3 class="brk-team-strict__name font__family-montserrat font__weight-semibold font__size-21">M Zakaria Firmansyah S.T</h3>
-                            </a>
-                            <div class="brk-team-strict__social"><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a> <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a> <a href="javascript:void(0)"><i class="fab fa-google-plus-g"></i></a> <a href="javascript:void(0)"><i class="fab fa-youtube"></i></a> <a href="javascript:void(0)"><i class="fab fa-vimeo-v"></i></a> <a href="javascript:void(0)"><i class="fab fa-vk"></i></a></div>
-                        </div>
-                    </div>
-
-                    <div class="pl-15 pr-15">
-                        <div class="brk-team-strict" data-brk-library="component__team" style="background-image: url(img/team/team-7.jpg)"><a href="javascript:void(0)">
-                                <h3 class="brk-team-strict__name font__family-montserrat font__weight-semibold font__size-21">Daldiri Surya Abdi</h3>
-                            </a>
-                            <div class="brk-team-strict__social"><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a> <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a> <a href="javascript:void(0)"><i class="fab fa-google-plus-g"></i></a> <a href="javascript:void(0)"><i class="fab fa-youtube"></i></a> <a href="javascript:void(0)"><i class="fab fa-vimeo-v"></i></a> <a href="javascript:void(0)"><i class="fab fa-vk"></i></a></div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
 
 @endsection

@@ -1,0 +1,4 @@
+public/img/maps/gm-3.png
+public/img/about/img_about_370x550.jpg
+public/img/about/manager-6.png
+public/img/about/img_about_548x635.png

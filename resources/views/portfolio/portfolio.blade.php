@@ -57,9 +57,9 @@
 			<div class="container">
 				<div class="brk-grid row">
 				<div class="brk-grid__sizer"></div>
-					
+
 					<div class="col-xl-3 col-lg-4 col-md-6 brk-grid__item brk-grid__item_height-370 iot" data-brk-hover3d='{"imgWrapper": ".post-filmstrip", "caption": ".post-filmstrip__content"}'>
-						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="{{asset('img/portfolio/iot-2.png')}}" data-brk-library="component__content_slider,fancybox,anime">
+						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="{{asset('img/portfolio/iot-2.jpg')}}" data-brk-library="component__content_slider,fancybox,anime">
 							<div class="post-filmstrip__overlay brk-base-bg-gradient-50deg"></div>
 							<div class="post-filmstrip__content text-center">
 								<h3 class="font__family-montserrat font__weight-semibold font__size-21 line__height-24">
@@ -72,7 +72,7 @@
 									<a href="#" class="links__permalink bg-white-20">
 										<i class="fas fa-link"></i>
 									</a>
-									<a href="{{asset('img/portfolio/iot-2.png')}}" class="links__view fancybox">
+									<a href="{{asset('img/portfolio/iot-2.jpg')}}" class="links__view fancybox">
 										<i class="fas fa-search"></i>
 									</a>
 								</div>
@@ -154,7 +154,7 @@
 								</h3>
 								<div class="post-filmstrip__excerpt font__family-open-sans font__size-16 line__height-26">
 								Pemasangan CCTV Hikvision di perumahan untuk keamanan optimal, memantau area secara real-time dengan kualitas video jernih.
-							
+
 								</div>
 								<div class="links">
 									<a href="#" class="links__permalink bg-white-20">
@@ -167,7 +167,7 @@
 							</div>
 						</div>
 					</div>
-				
+
 
 					<div class="col-xl-6 col-lg-8 col-md-6 brk-grid__item brk-grid__item_height-370 software" data-brk-hover3d='{"imgWrapper": ".post-filmstrip", "caption": ".post-filmstrip__content"}'>
 						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="{{asset('img/portfolio/software_2.png')}}" data-brk-library="component__content_slider,fancybox,anime">
@@ -232,7 +232,7 @@
 						</div>
 					</div>
 					<div class="col-xl-3 col-lg-4 col-md-6 brk-grid__item brk-grid__item_height-370  iot" data-brk-hover3d='{"imgWrapper": ".post-filmstrip", "caption": ".post-filmstrip__content"}'>
-						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="{{asset('img/portfolio/iot-3.png')}}" data-brk-library="component__content_slider,fancybox,anime">
+						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="{{asset('img/portfolio/iot-3.jpg')}}" data-brk-library="component__content_slider,fancybox,anime">
 							<div class="post-filmstrip__overlay brk-base-bg-gradient-50deg"></div>
 							<div class="post-filmstrip__content text-center">
 								<h3 class="font__family-montserrat font__weight-semibold font__size-21 line__height-24">
@@ -245,17 +245,17 @@
 									<a href="#" class="links__permalink bg-white-20">
 										<i class="fas fa-link"></i>
 									</a>
-									<a href="{{asset('img/portfolio/iot-3.png')}}" class="links__view fancybox">
+									<a href="{{asset('img/portfolio/iot-3.jpg')}}" class="links__view fancybox">
 										<i class="fas fa-search"></i>
 									</a>
 								</div>
 							</div>
 						</div>
 					</div>
-					
+
 
 					<div class="col-xl-6 col-lg-8 col-md-6 brk-grid__item brk-grid__item_height-370  cctv" data-brk-hover3d='{"imgWrapper": ".post-filmstrip", "caption": ".post-filmstrip__content"}'>
-						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="{{asset('img/portfolio/cctv-1.png')}}" data-brk-library="component__content_slider,fancybox,anime">
+						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="{{asset('img/portfolio/cctv-1.jpg')}}" data-brk-library="component__content_slider,fancybox,anime">
 							<div class="post-filmstrip__overlay brk-base-bg-gradient-50deg"></div>
 							<div class="post-filmstrip__content text-center">
 								<h3 class="font__family-montserrat font__weight-semibold font__size-21 line__height-24">
@@ -267,7 +267,7 @@
 									<a href="#" class="links__permalink bg-white-20">
 										<i class="fas fa-link"></i>
 									</a>
-									<a href="{{asset('img/portfolio/cctv-1.png')}}" class="links__view fancybox">
+									<a href="{{asset('img/portfolio/cctv-1.jpg')}}" class="links__view fancybox">
 										<i class="fas fa-search"></i>
 									</a>
 								</div>
@@ -275,7 +275,7 @@
 						</div>
 					</div>
 					<div class="col-xl-3 col-lg-4 col-md-6 brk-grid__item brk-grid__item_height-370 cctv" data-brk-hover3d='{"imgWrapper": ".post-filmstrip", "caption": ".post-filmstrip__content"}'>
-						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="{{asset('img/portfolio/cctv-2.png')}}" data-brk-library="component__content_slider,fancybox,anime">
+						<div class="post-filmstrip text-center brk-base-box-shadow lazyload" data-bg="{{asset('img/portfolio/cctv-2.jpg')}}" data-brk-library="component__content_slider,fancybox,anime">
 							<div class="post-filmstrip__overlay brk-base-bg-gradient-50deg"></div>
 							<div class="post-filmstrip__content text-center">
 								<h3 class="font__family-montserrat font__weight-semibold font__size-21 line__height-24">
@@ -288,7 +288,7 @@
 									<a href="#" class="links__permalink bg-white-20">
 										<i class="fas fa-link"></i>
 									</a>
-									<a href="{{asset('img/portfolio/cctv-2.png')}}" class="links__view fancybox">
+									<a href="{{asset('img/portfolio/cctv-2.jpg')}}" class="links__view fancybox">
 										<i class="fas fa-search"></i>
 									</a>
 								</div>
@@ -380,7 +380,7 @@
 							</div>
 						</div>
 					</div>
-					
+
 
 				</div>
 				<div class="text-center">
